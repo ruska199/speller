@@ -60,7 +60,7 @@ bool load(const char* dictionary) {
     }
 
     root = malloc(sizeof (node));
-    int c = 0; //char from dict
+    char c = 0; //char from dict
     node* current = NULL;
 
     while (fgetc(dict) != EOF) {
